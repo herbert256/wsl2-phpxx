@@ -24,7 +24,7 @@ set image=https://cloud-images.ubuntu.com/focal/current/focal-server-cloudimg-am
 
 rem The GIT repository that contains the PHP application.
 rem
-set app_repo=https://github.com/Herbert256/pad.git
+set app_repo=https://github.com/Herbert256/wsl2-phpxx_demo-app.git
 
 rem The installation script of the PHP application.
 rem
