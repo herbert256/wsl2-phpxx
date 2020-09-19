@@ -4,7 +4,7 @@ rem
 rem  Installation of WSL2-PHPxx
 rem
 
-echo Starting WSL2-PHPxx installation
+echo Starting WSL2-PHPxx installation.
 
 set "oldDir=%cd%"
 cd /D "%~dp0"
@@ -33,6 +33,8 @@ call windows\php.cmd 72 %php_72% > "%wsl%\log\72.txt"             2>&1
 call windows\php.cmd 71 %php_71% > "%wsl%\log\71.txt"             2>&1
 call windows\php.cmd 70 %php_70% > "%wsl%\log\70.txt"             2>&1
 
-cZall windows\exits.cmd           > "%wsl%\log\exits_start.txt"    2>&1
+call windows\exits.cmd           > "%wsl%\log\exits_start.txt"    2>&1
+
+echo Done.
 
 cd /D "%oldDir%"
