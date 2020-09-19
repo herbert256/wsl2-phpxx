@@ -1,6 +1,6 @@
 #!/bin/bash
  
-apt-get -y install libmemcached-dev
+apt-get -y install memcached libmemcached-dev
 
 pecl channel-update pecl.php.net
 

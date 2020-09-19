@@ -10,7 +10,7 @@ then
   sudo mount --bind /app     /mnt/wsl/app
   sudo mount --bind /var/www /mnt/wsl/www
 
-  sudo service mariadb start 
+  sudo service mariadb   start 
   sudo service memcached start
 
 else

@@ -3,10 +3,9 @@ rem wsl support script
 rem
 
 wsl -d %1 -u root -- mkdir -p  /wsl/%2
-wsl -d %1 -u root -- chmod 777 /wsl
-wsl -d %1 -u root -- chmod 777 /wsl/%2
+wsl -d %1 -u root -- chmod 777 -R /wsl
 
-sleep 1
+PING localhost -n 2 > NUL
 
 copy "%~dp0\..\%2\*.sh" \\wsl$\%1\wsl\%2
 
