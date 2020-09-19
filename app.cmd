@@ -6,3 +6,8 @@ call settings.cmd
 
 call windows\app.cmd
 call windows\www.cmd
+
+wsl --shutdown
+
+call start.cmd
+

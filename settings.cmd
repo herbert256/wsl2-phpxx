@@ -16,7 +16,7 @@ rem
 rem Ubuntu: https://cloud-images.ubuntu.com/focal/current/focal-server-cloudimg-amd64-wsl.rootfs.tar.gz
 rem Debian: https://salsa.debian.org/debian/WSL/-/raw/master/x64/install.tar.gz
 rem
-set image=https://cloud-images.ubuntu.com/focal/current/focal-server-cloudimg-amd64-wsl.rootfs.tar.gz
+set image=https://salsa.debian.org/debian/WSL/-/raw/master/x64/install.tar.gz
 
 
 rem The GIT repository that contains the PHP application.
