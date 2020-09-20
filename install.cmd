@@ -26,15 +26,17 @@ call windows\data2.cmd           > "%wsl%\log\data_close.txt"     2>&1
 call windows\export.cmd phpxx    > "%wsl%\log\php_export.txt"     2>&1
 
 call windows\php.cmd 80 %php_80% > "%wsl%\log\80.txt"             2>&1
-call windows\php.cmd 74 %php_74% > "%wsl%\log\74.txt"             2>&1
-call windows\php.cmd 73 %php_73% > "%wsl%\log\73.txt"             2>&1
-call windows\php.cmd 72 %php_72% > "%wsl%\log\72.txt"             2>&1
-call windows\php.cmd 71 %php_71% > "%wsl%\log\71.txt"             2>&1
-call windows\php.cmd 70 %php_70% > "%wsl%\log\70.txt"             2>&1
+rem call windows\php.cmd 74 %php_74% > "%wsl%\log\74.txt"             2>&1
+rem call windows\php.cmd 73 %php_73% > "%wsl%\log\73.txt"             2>&1
+rem call windows\php.cmd 72 %php_72% > "%wsl%\log\72.txt"             2>&1
+rem call windows\php.cmd 71 %php_71% > "%wsl%\log\71.txt"             2>&1
+rem call windows\php.cmd 70 %php_70% > "%wsl%\log\70.txt"             2>&1
 
 call windows\app.cmd             > "%wsl%\log\app_start.txt"   	  2>&1
 
 call windows\exits.cmd           > "%wsl%\log\exits_start.txt"    2>&1
+
+call start.cmd                   > "%wsl%\log\start.txt"          2>&1
 
 echo Done.
 

@@ -16,7 +16,7 @@ cat << EOT > /var/www/html/index.php
     <title><?php echo phpversion(); ?></title>
   </head>
   <body>
-    <h1><?php echo phpversion(); ?>/h1>
+    <h1><?php echo phpversion(); ?></h1>
     <ul>
       <li><a href="http://localhost:1080">PHP 8.0 - http://localhost:1080</a><?php version ('8.0'); ?></li>
       <li><a href="http://localhost:1074">PHP 7.4 - http://localhost:1074</a><?php version ('7.4'); ?></li>
