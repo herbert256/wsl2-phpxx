@@ -16,7 +16,7 @@ C:\Users\herbert>wsl -l -v
   php72    Running         2
 ```
 
-There are 2 services running on the data distro, Mariadb and MemcacheD, Apache is running on every PHP distro, with the default WSL2 setup that every service is avalable under localhost (including the Windows host) that makes below services available everywhere.
+There are 2 services running on the data distro, Mariadb and Memcached, Apache is running on every PHP distro, with the default WSL2 setup that every service is avalable under localhost (including the Windows host) that makes below services available everywhere.
 
 ```
 data@data:/mnt/c/Users/herbert$ sudo netstat -plnt
@@ -108,7 +108,7 @@ Bad, use it only on your personal PC / Laptop. For example, the admin user `data
 
 ## wsl2-phpxx_demo_app
 
-Default a small PHP app is installed under `/app` on the `data` distro.
+Default a small PHP app is installed under `/app` on the `data` distro, you can find the sources of it at below file.
 
 https://github.com/Herbert256/wsl2-phpxx_demo-app
 
