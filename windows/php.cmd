@@ -12,9 +12,3 @@ wsl -d php%1 -u root -- /wsl/php/memcached.sh      > "%wsl%\log\%1_memcached.txt
 wsl -d php%1 -u root -- /wsl/base/exits.sh php%1   > "%wsl%\log\%1_exits.txt"     2>&1
 
 call windows\shrink.cmd php%1                      > "%wsl%\log\%1_shrink.txt"    2>&1
-
-wsl -t php%1                                       > "%wsl%\log\%1_terminate.txt"  2>&1
-call wait.cmd > NUL 2>&1
-
-wsl -d php%1 /start                                > "%wsl%\log\%1_start.txt"      2>&1
-call wait.cmd > NUL 2>&1

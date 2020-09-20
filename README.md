@@ -124,7 +124,7 @@ Still here? Then it's time to install it !
 * Run the script `install.cmd`
 * Wait ... wait ...
 
-Make sure you give the first variable %wsl% in `settings.cmd` the right value. The diskspace needed at that location is 10 GB when you use Debian as base and 16 GB if you use Ubuntu as base.
+Make sure you give the first variable %wsl% in `settings.cmd` the right value. The diskspace needed at that location is 8 GB when you use Debian as base and 12 GB if you use Ubuntu as base.
 
 It can take some time, compiling 6 PHP versions from source takes time.
 

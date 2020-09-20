@@ -1,7 +1,5 @@
 #!/bin/bash
 
-echo "Starting: $WSL_DISTRO_NAME"
-
 if [ "$WSL_DISTRO_NAME" = "data" ]
 
 then

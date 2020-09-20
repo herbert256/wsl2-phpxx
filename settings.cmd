@@ -4,7 +4,7 @@ rem
 
 
 rem Location for the virtal HD's files of the WSL distros, 
-rem must have 10 GB free space for Debian or 16 GB for Ubuntu.
+rem must have 8 GB free space for Debian or 12 GB for Ubuntu.
 rem
 rem set wsl=%USERPROFILE%\wsl
 set wsl=d:\wsl
@@ -16,7 +16,7 @@ rem
 rem Ubuntu: https://cloud-images.ubuntu.com/focal/current/focal-server-cloudimg-amd64-wsl.rootfs.tar.gz
 rem Debian: https://salsa.debian.org/debian/WSL/-/raw/master/x64/install.tar.gz
 rem 
-set image=https://cloud-images.ubuntu.com/focal/current/focal-server-cloudimg-amd64-wsl.rootfs.tar.gz
+set image=https://salsa.debian.org/debian/WSL/-/raw/master/x64/install.tar.gz
 
 
 rem The GIT repository that contains the PHP application.
