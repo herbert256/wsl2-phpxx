@@ -12,10 +12,7 @@ cd /D "%~dp0"
 call settings.cmd
 
 call stop.cmd > NUL 2>&1
-
 call windows\app.cmd
 call start.cmd
-
-echo Done.
 
 cd /D "%oldDir%"
