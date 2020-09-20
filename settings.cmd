@@ -27,10 +27,6 @@ rem The installation script of the PHP application.
 rem
 set app_install=install/install.sh
 
-rem The public HTML directory inside the PHP application
-rem will be used for /var/www/html off the Apache2 installation.
-rem
-set app_www=www
 
 
 rem The supported PHP version's

@@ -83,7 +83,7 @@ If you put a file image.tar.gz file in the directory where `%wsl%` from `setting
 
 `wsl --export Debian d:\wsl\image.tar.gz`
 
-However, it is a recipy to make the WSL2-PHPxx install script go bananas, it asumes it is working on a vanilla Debian 10 or Ubuntu 20.04 distribution.
+However, a own `image.tar.gz` file is a recipy to make the WSL2-PHPxx install script go bananas, it asumes it is working on a vanilla Debian 10 or Ubuntu 20.04 distribution.
 
 
 
@@ -94,7 +94,7 @@ With WSL2 cross mounts, the folowing locations from the `data` distro are also a
 * /var/www/
 If you make a change in those 2 locaties, you make it automatically available in all Distros
 
-The same for Mariadb and Memcached, it's running on the `data` distro, you can use those 2 services from on every PHP distro.
+The same for Mariadb and Memcached, those two are running on the `data` distro, you can use those 2 services from every PHP distro.
 
 Maybe the /var/www directory make you think Apache is installed on the `data` distro, thats not the case, Apache is only installed on the PHP distros.
 
@@ -112,7 +112,7 @@ Default a small PHP app is installed under `/app` on the `data` distro.
 
 https://github.com/Herbert256/wsl2-phpxx_demo-app
 
-The `/var/www/html` directory is a symbolic link to `/app/www`.
+This Demo App makes the `/var/www/html` directory a symbolic link to `/app/www`.
 
 
 
@@ -124,11 +124,11 @@ Still here? Then it's time to install it !
 * Run the script `install.cmd`
 * Wait ... wait ...
 
-Make sure you give the first variable %wsl% in `settings.cmd` the right value. The diskspace needed at that location is 10 GB when you use Debian as base and 16 GB is you use Ubuntu as base.
+Make sure you give the first variable %wsl% in `settings.cmd` the right value. The diskspace needed at that location is 10 GB when you use Debian as base and 16 GB if you use Ubuntu as base.
 
 It can take some time, compiling 6 PHP versions from source takes time.
 
-Problems during install? The installation script has no error handling, so if one of the first steps fails, then all other steps after it will also fail. There is extensive logging, so you have to do some digging in %wsl%\log\ if it does not work.
+Problems during install? The installation script has no error handling, if one of the first steps fails, then all other steps after it will also fail. There is extensive logging, you have to do some digging in %wsl%\log\ if it does not work.
 
 
 

@@ -13,7 +13,6 @@ call settings.cmd
 
 wsl --shutdown
 call windows\app.cmd
-call windows\www.cmd
 wsl --shutdown
 
 call start.cmd
