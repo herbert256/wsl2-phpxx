@@ -7,5 +7,3 @@ pecl channel-update pecl.php.net
 printf "\n\n\n\n\n\n\n\n" | pecl install yaml
 
 echo "extension=yaml.so" >> /usr/local/lib/php.ini
-
-apt -y remove libyaml-dev 

@@ -16,12 +16,13 @@ call windows\image.cmd           > "%wsl%\log\image.txt"          2>&1
 call windows\base.cmd            > "%wsl%\log\base_start.txt"     2>&1
 call windows\phpxx.cmd           > "%wsl%\log\php_start.txt"      2>&1
 call windows\data1.cmd           > "%wsl%\log\data_open.txt"      2>&1
-call windows\app.cmd             > "%wsl%\log\app_start.txt"   	  2>&1
-call windows\www.cmd             > "%wsl%\log\www_start.txt"      2>&1
 
+call windows\www1.cmd            > "%wsl%\log\www_start.txt"      2>&1
 call windows\www2.cmd phpinfo    > "%wsl%\log\www_phpinfo.txt"    2>&1
 call windows\www2.cmd phpsysinfo > "%wsl%\log\www_phpsysinfo.txt" 2>&1
 call windows\www2.cmd phpmyadmin > "%wsl%\log\www_phpmyadmin.txt" 2>&1
+
+call windows\app.cmd             > "%wsl%\log\app_start.txt"   	  2>&1
 
 call windows\data2.cmd           > "%wsl%\log\data_close.txt"     2>&1
 call windows\export.cmd phpxx    > "%wsl%\log\php_export.txt"     2>&1
