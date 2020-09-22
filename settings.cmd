@@ -22,6 +22,7 @@ set image=https://salsa.debian.org/debian/WSL/-/raw/master/x64/install.tar.gz
 rem The GIT repository that contains the PHP application.
 rem
 set app_repo=https://github.com/Herbert256/wsl2-phpxx_demo-app.git
+rem set app_repo=https://github.com/Herbert256/pad.git
 
 rem The installation script of the PHP application.
 rem
