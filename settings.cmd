@@ -31,10 +31,10 @@ set app_install=install/install.sh
 
 rem The supported PHP version's
 rem
-set php_80=https://downloads.php.net/~pollita/php-8.0.0beta4.tar.gz
-set php_74=https://www.php.net/distributions/php-7.4.10.tar.xz           
-set php_73=https://www.php.net/distributions/php-7.3.22.tar.xz      
-set php_72=https://www.php.net/distributions/php-7.2.32.tar.xz  
+set php_80=https://www.php.net/distributions/php-8.0.0.tar.xz
+set php_74=https://www.php.net/distributions/php-7.4.13.tar.xz           
+set php_73=https://www.php.net/distributions/php-7.3.25.tar.xz      
+set php_72=https://www.php.net/distributions/php-7.2.34.tar.xz  
 set php_71=https://www.php.net/distributions/php-7.1.33.tar.xz
 set php_70=https://www.php.net/distributions/php-7.0.33.tar.xz
 
