@@ -2,7 +2,7 @@
 
 The concept:
 * Create a different WSL2 distro for each off the PHP 8.0, 7.4, 7.3, 7.2, 7.1, 7.0 versions.
-* Create a exta WSL2 distro that contains the shared data for those PHP distros.
+* Create an exta WSL2 distro that contains the shared data for those PHP distros.
 
 ```
 C:\Users\herbert>wsl -l -v
