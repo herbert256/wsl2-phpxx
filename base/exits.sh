@@ -20,4 +20,3 @@ rm -Rf /var/log/faillog
 rm -Rf /var/log/apt/*   
 rm -Rf /tmp/*   
 rm -Rf /var/cache/apt/*.bin
-)
