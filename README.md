@@ -54,7 +54,7 @@ It's a ToDo to give every PHP version it's own ./configure statement.
 
 ## Where am I ?
 
-I found out that if you have multiple WSL2 distros, it can sometimes be a bit confusing on wich one you are working. For this reason the hostname and the default user has the same name as the distro name. Most of the time you see at least one of those 3 on your screen.
+I found out that if you have multiple WSL2 distros, it can sometimes be a bit confusing on wich one you are working. For this reason the hostname and the default user have the same name as the distro name. Most of the time you see at least one of those 3 on your screen.
 
 
 
